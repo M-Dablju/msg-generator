@@ -1,0 +1,6 @@
+const who = ['a Doctor', 'a Gamer', 'a PM', 'an Engineer', 'an Adventurer', 'a Banker', 'a Teacher', 'a Student', 'a Tost', 'a Politician', 'a Priest', 'a Baby', 'a Streamer', 'an Athleat', 'an Unemployed Person'];
+const when = ['getting heart broken', 'being rejected from a job', 'being kicked from a confession booth', 'getting slapped by a lady', 'getting eaten by a wild animal', 'bungee jumping accident', 'being banned from YouTube', 'going to jail', 'atempting to jump over a stream', 'approaching a bee hive', 'stealing ice cream from a kid', 'calculating their retirenment', 'meeting a Grim Reaper', 'being stopped by a Police', 'falling of a cliff'];
+const what = ['I don\'t know about that!', 'YOLO!', 'This gotta work.', 'Looks easy.', 'Eyes closed, head first, can\'t lose!', 'They see me rollin\'', 'Ain\'t nobody got time for that.', 'Pieace of cake.', 'Just be confident!', 'I love lamp.', 'Hasta la vista baby', 'No problemo!', 'On it!', 'Mom, are you recording this?', 'It\'s gonna be legen...'];
+
+console.log(`Famous last words of ${who[Math.floor(Math.random() * 15)]}, before ${when[Math.floor(Math.random() * 15)]}:`);
+console.log(`"${what[Math.floor(Math.random() * 15)]}"`);
